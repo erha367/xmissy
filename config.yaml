@@ -1,0 +1,13 @@
+#待采集的信息
+host: https://elitebabes.com
+domain: www.elitebabes.com
+environment: dev
+#列表页配置
+list_rule: '#content > ul:nth-child(3) > li'
+list_a_rule: 'figure > a'
+#详情页配置
+detail_rule: '#content > ul.list-gallery.static.css > li'
+detail_a_rule: 'a'
+#缓存
+redis: 127.0.0.1:6379
+
